@@ -1,8 +1,5 @@
 let n = 12345;
 
-const arr = String(n).split("")
+let arr = String(n).split("");
 
-console.log(arr);
-
-
-
+console.log(new Set(arr).size === arr.length);
