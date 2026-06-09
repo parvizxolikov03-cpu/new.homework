@@ -8,4 +8,4 @@ const arr = [
 { name: "Sami", age: 25 }
 ];
 
-console.log(arr.filter());
+console.log(arr.filter(item => item.age > 18));
